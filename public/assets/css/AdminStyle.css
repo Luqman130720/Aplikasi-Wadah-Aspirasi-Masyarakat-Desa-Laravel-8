@@ -1,0 +1,69 @@
+:root {
+    --offcanvas-width: 270px;
+    --topNavbarHeight: 56px;
+}
+
+body {
+    background-image: url(/assets/images/dash-admin.jpg);
+    background-size: cover;
+    background-color: aqua;
+}
+
+.navbar-brand {
+    font-family: pacifico;
+}
+
+
+.offcanvas-backdrop::after {
+    display: none;
+}
+
+.btn-del-up {
+    border-radius: 13px;
+
+}
+
+.overflow-hidden {
+    height: 48px;
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+
+.form-rounded {
+    border-radius: 15px;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+
+.sidebar-nav {
+    visibility: visible !important;
+    top: var(--topNavbarHeight);
+    height: calc(100%-var(--topNavbarHeight));
+    -webkit-background-composite: none;
+    width: var(--offcanvas-width);
+    margin-left: -10px;
+}
+
+@media (max-width: 992px) {
+    .sidebar-nav {
+        width: var(--offcanvas-width);
+
+    }
+
+    .offcanvas-link {
+        display: none !important;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+
+}

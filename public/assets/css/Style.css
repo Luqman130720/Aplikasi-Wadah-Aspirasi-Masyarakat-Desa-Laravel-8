@@ -1,0 +1,133 @@
+* {
+    cursor: default;
+}
+
+.registration {
+    background-image: url(/assets/images/login-bg.jpg);
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-family: pacifico;
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron {
+    margin-top: 75px;
+    border-radius: 20px;
+}
+
+.moto {
+    font-size: 24px;
+}
+
+.moto-2 {
+    font-weight: 200;
+    font-size: 28px;
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+
+.modal-title {
+    font-family: Viga;
+}
+
+.daftar-disini {
+    text-decoration: none;
+}
+
+.form-input {
+    border-radius: 15px;
+}
+
+.register-foto {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.img-detail {
+    border-radius: 15px;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-brand {
+        font-size: 20px;
+        color: white;
+        margin-left: -30px;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .jumbotron {
+        margin-top: 50px;
+    }
+
+    .moto {
+        font-size: 15px;
+    }
+
+    .moto-2 {
+        /* font-weight: 200; */
+        font-size: 18px;
+    }
+}
+
+/* User Dashboard */
+.user-dashboard {
+    background-image: url(/assets/images/dash-user-bg.jpg);
+    background-size: cover;
+}
+
+.aspirasi {
+    border-radius: 20px;
+}
+
+.aspirasi .aspirasi-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.aspirasi .asp-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #886CC0;
+}
+
+.overflow-hidden {
+    height: 48px;
+}
+
+.list-menu {
+    font-family: viga;
+    font-weight: 200;
+}
+
+.text-user {
+    font-family: viga;
+    font-weight: 100;
+}
+
+@media screen and(max-width: 992px) {
+    .detail-image {
+        height: 300px !important;
+    }
+
+}
+
+/* End User Dashboard */
